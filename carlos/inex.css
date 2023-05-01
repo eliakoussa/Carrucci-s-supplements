@@ -1,0 +1,155 @@
+
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #333;
+  }
+  
+  a {
+    color: #0077c0;
+    text-decoration: nonw;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  img {
+    width:250px;
+    height:250px;
+  }
+  
+  /* Header styles */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #0077c0;
+    color: rgb(0, 0, 0);
+  }
+  
+  nav ul {
+    display: flex;
+  }
+  
+  nav li {
+    margin-left: 20px;
+  }
+  
+  nav a {
+    color: rgb(0, 0, 0);
+  }
+  
+  /* Banner styles */
+  #banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-image: url('banner.jpg');
+    background-size: cover;
+    color: rgb(0, 0, 0);
+  }
+  
+  #banner h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  #banner p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(255, 255, 255);
+    color: #0077c0;
+    border-radius: 5px;
+  }
+  
+  /* Products styles */
+  #products {
+    padding: 50px;
+    background-color: #f4f4f4;
+  }
+  
+  #products h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  #products ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  #products li {
+    flex-basis: calc(33.33% - 20px);
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  #products h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  #products p {
+    margin-bottom: 20px;
+  }
+  
+  /* About styles */
+  #about {
+    padding: 50px;
+  }
+  
+  #about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  #about p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  
+  /* Footer styles */
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    font-size: 0.8rem;
+  }
+  
+  footer ul {
+    display: flex;
+  }
+  
+  footer li {
+    margin-left: 20px;
+  }
+  
+  footer a {
+    color: #333;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
